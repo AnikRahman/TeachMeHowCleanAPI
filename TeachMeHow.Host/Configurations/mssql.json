@@ -1,0 +1,6 @@
+{
+  "MSSQLSettings": {
+    "DBProvider": "mssql",
+    "ConnectionString": "Server=BS-1019\\SQLEXPRESS;Database=TeachMeHowCleanAPI;Trusted_connection=True;TrustServerCertificate =Yes"
+  }
+}

@@ -4,13 +4,11 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	  <InvariantGlobalization>false</InvariantGlobalization>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Contants\" />
-    <Folder Include="Extensions\" />
-    <Folder Include="Authorization\" />
-    <Folder Include="Enum\" />
+    <ProjectReference Include="..\TeachMeHow.Persistence\TeachMeHow.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

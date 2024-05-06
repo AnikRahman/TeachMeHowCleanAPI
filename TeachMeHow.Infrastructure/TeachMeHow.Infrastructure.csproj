@@ -6,4 +6,22 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Auth\" />
+    <Folder Include="Caching\" />
+    <Folder Include="Common\" />
+    <Folder Include="Mailing\" />
+    <Folder Include="Export\" />
+    <Folder Include="Cors\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Logger\" />
+    <Folder Include="SMS\" />
+    <Folder Include="OpenAPI\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TeachMeHow.Application\TeachMeHow.Application.csproj" />
+    <ProjectReference Include="..\TeachMeHow.Domain\TeachMeHow.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
