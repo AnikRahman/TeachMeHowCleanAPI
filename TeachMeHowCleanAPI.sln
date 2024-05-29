@@ -9,25 +9,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{7BB06287-7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{40390AA1-E97E-49DF-B9BF-DEF18967C3D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeachMeHow.Host", "TeachMeHow.Host\TeachMeHow.Host.csproj", "{2B9A2502-C7AF-4DF3-B521-73D81CBFF1E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeachMeHow.Host", "TeachMeHow.Host\TeachMeHow.Host.csproj", "{2B9A2502-C7AF-4DF3-B521-73D81CBFF1E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeachMeHow.Application", "TeachMeHow.Application\TeachMeHow.Application.csproj", "{6460EEB6-663C-473B-A519-6B01B0FD9177}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeachMeHow.Application", "TeachMeHow.Application\TeachMeHow.Application.csproj", "{6460EEB6-663C-473B-A519-6B01B0FD9177}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeachMeHow.Domain", "TeachMeHow.Domain\TeachMeHow.Domain.csproj", "{26B5DA44-67FE-48CB-9660-A8A9A07E08F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeachMeHow.Domain", "TeachMeHow.Domain\TeachMeHow.Domain.csproj", "{26B5DA44-67FE-48CB-9660-A8A9A07E08F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeachMeHow.Infrastructure", "TeachMeHow.Infrastructure\TeachMeHow.Infrastructure.csproj", "{C291B4D6-5192-476C-BE8B-4A65E20F82ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeachMeHow.Infrastructure", "TeachMeHow.Infrastructure\TeachMeHow.Infrastructure.csproj", "{C291B4D6-5192-476C-BE8B-4A65E20F82ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeachMeHow.Persistence", "TeachMeHow.Persistence\TeachMeHow.Persistence.csproj", "{A5368084-E736-43EA-A6A2-E7646D1D0343}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeachMeHow.Persistence", "TeachMeHow.Persistence\TeachMeHow.Persistence.csproj", "{A5368084-E736-43EA-A6A2-E7646D1D0343}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{6F5FE1E0-5750-4986-8229-6217078FB4DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeachMeHow.Shared", "TeachMeHow.Shared\TeachMeHow.Shared.csproj", "{4CF35CB6-C573-41AB-9392-F4286F4862E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeachMeHow.Shared", "TeachMeHow.Shared\TeachMeHow.Shared.csproj", "{4CF35CB6-C573-41AB-9392-F4286F4862E3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{772D9EA9-02CF-43D7-AA21-91E9633A53F8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migrators", "Migrators", "{1C04EDE7-0BEE-4FAA-9038-D531D2478524}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migrators.MSSQL", "Migrators.MSSQL\Migrators.MSSQL.csproj", "{D0EDDA3A-26AC-4F81-82A2-83E5FAEE98FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Migrators.MSSQL", "Migrators.MSSQL\Migrators.MSSQL.csproj", "{D0EDDA3A-26AC-4F81-82A2-83E5FAEE98FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -77,7 +77,7 @@ Global
 		{6F5FE1E0-5750-4986-8229-6217078FB4DB} = {B437DF10-57AA-4E79-AE4F-5E0386400CD1}
 		{4CF35CB6-C573-41AB-9392-F4286F4862E3} = {7BB06287-71D8-401E-B9EF-802689FD9BCB}
 		{772D9EA9-02CF-43D7-AA21-91E9633A53F8} = {B437DF10-57AA-4E79-AE4F-5E0386400CD1}
-		{1C04EDE7-0BEE-4FAA-9038-D531D2478524} = {B437DF10-57AA-4E79-AE4F-5E0386400CD1}
+		{1C04EDE7-0BEE-4FAA-9038-D531D2478524} = {6F5FE1E0-5750-4986-8229-6217078FB4DB}
 		{D0EDDA3A-26AC-4F81-82A2-83E5FAEE98FC} = {1C04EDE7-0BEE-4FAA-9038-D531D2478524}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution

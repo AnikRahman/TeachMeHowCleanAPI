@@ -7,12 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Persistence\Interfaces\**" />
+    <EmbeddedResource Remove="Persistence\Interfaces\**" />
+    <None Remove="Persistence\Interfaces\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\TeachMeHow.Domain\TeachMeHow.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Cart\" />
-    <Folder Include="Persistence\Interfaces\" />
   </ItemGroup>
 
   <ItemGroup>
